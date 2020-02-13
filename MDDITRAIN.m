@@ -129,13 +129,12 @@ t = MACHINE';
 trainFcn = 'trainscg'; %Scaled conjugate gradient backpropagation
 
 % Create the neural network
-hiddenLayer1 = 50;
-hiddenLayer2 = 50;
-% hiddenLayer3 = 50;
+hiddenLayer1 = 25;
+hiddenLayer2 = 25;
+% hiddenLayer3 = 25;
 hiddenLayerSize(1) = hiddenLayer1;
 hiddenLayerSize(2) = hiddenLayer2;
 % hiddenLayerSize(3) = hiddenLayer3;
-% hiddenLayerSize = 50;
 net = patternnet(hiddenLayerSize);
 
 % Divide for training, validation, and testing
