@@ -9,9 +9,9 @@ Here, we have separated the events into three components: diffractions, reflecti
 There is also a fourth component for identification, which is where diffractions and reflections overlap. 
 
 These functions have been created for MATLAB and requires the following to run:
-MATLAB
-Image Processing Toolbox 
-Neural Network Toolbox
+MATLAB,
+Image Processing Toolbox, 
+Neural Network Toolbox.
 
 Usage instructions are in the help of each function. To obtain the figures used in the paper the following should be run:
 
