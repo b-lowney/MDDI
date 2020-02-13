@@ -20,7 +20,7 @@ Usage instructions are in the help of each function. To obtain the figures used 
 [PRED] = MDDIPRED('Data/Predict/Synth_Predict.ASC',NET,'Data/Predict/Synth_Predict_Dip.ASC',1,1,1,1,1,1,0);
 
 OUTPUT is the classified image using the trained network NET, PRED is the prediction image on the synthetic data using the trained NET.
-Domains used must match in Training and Prediction examples. 
+Domains used must match in Training and Prediction examples. Training will stop automatically when no longer updating, this took ~150 epochs on our machine. 
 
 Real data examples seen in the paper are not available for confidentiality reasons.
 The trained neural network used for the real data examples was trained on a large quantity of real and synthetic data and thus to achieve
