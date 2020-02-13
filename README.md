@@ -24,4 +24,4 @@ Domains used must match in Training and Prediction examples.
 
 Real data examples seen in the paper are not available for confidentiality reasons.
 The trained neural network used for the real data examples was trained on a large quantity of real and synthetic data and thus to achieve
-a similar result, training on real data is necessary. 
+a similar result, training on real data is necessary. Actual results may vary dependent on hardware (for speed) and due to the random nature of each trained network.  
