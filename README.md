@@ -14,7 +14,9 @@ Image Processing Toolbox
 Neural Network Toolbox
 
 Usage instructions are in the help of each function. To obtain the figures used in the paper the following should be run:
+
 [OUTPUT, NET] = MDDI('Data/Train/Synth_Train.ASC','Data/Train/Synth_Class.ASC','Data/Train/Synth_Train_Dip.ASC',1,1,1,1,1,1,0);
+
 [PRED] = MDDIPRED('Data/Predict/Synth_Predict.ASC',NET,'Data/Predict/Synth_Predict_Dip.ASC',1,1,1,1,1,1,0);
 
 OUTPUT is the classified image using the trained network NET, PRED is the prediction image on the synthetic data using the trained NET. 
